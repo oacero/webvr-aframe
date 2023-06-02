@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Animación opacidad</title>
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene  background="color: #0e7dbd">
+            <a-box 
+                id="mi-cubo" 
+                position="0 1.5 -3" 
+                color="#d4de89" 
+                rotation=" 0 40 0"
+                animation="property: material.opacity; to: 0; dur: 4000; loop: true;">
+            </a-box>
+
+        </a-scene>
+    </body>
+</html>
